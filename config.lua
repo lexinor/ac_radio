@@ -4,7 +4,7 @@
 
 ac = {
 	-- Language for notifications and UI
-	locale = 'en',
+	locale = 'fr',
 
 	-- Whether to check for newer resource version and notify in server console.
 	versionCheck = true,
@@ -25,7 +25,7 @@ ac = {
 	maximumFrequencies = 1000,
 
 	-- How much the frequency value can change per step.
-	frequencyStep = 0.01,
+	frequencyStep = 0.1,
 
 	-- Channel frequency restrictions.
 	restrictedChannels = {
