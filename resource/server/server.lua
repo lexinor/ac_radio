@@ -1,5 +1,7 @@
+---@param name string
+---@return boolean
 local function hasResource(name)
-	return GetResourceState(name):find('start')
+	return GetResourceState(name):find('start') ~= nil
 end
 
 server = {
@@ -62,7 +64,7 @@ for frequency, allowed in pairs(ac.restrictedChannels) do
 		end
 
 		return false
-    end)
+	end)
 end
 
 
