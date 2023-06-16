@@ -12,7 +12,7 @@ return {
 	['command_clear'] = "Reset de tous les Préréglages",
 	['keymap_open'] = "Ouvrir la radio",
 
-	['channel_join'] = "Fréquence %s MHz rejointe",
+	['channel_join'] = "Fréquence %s MHz rejoint",
 	['channel_unavailable'] = "Fréquence indisponible",
 	['channel_disconnect'] = "Déconnecté de la radio",
 

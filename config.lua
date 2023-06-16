@@ -13,7 +13,7 @@ ac = {
 	useCustomNotify = false,
 
 	-- Whether to use command for opening the radio UI.
-	useCommand = true,
+	useCommand = false,
 
 	-- Default keybind for the '/radio' command.
 	commandKey = '',
@@ -25,11 +25,27 @@ ac = {
 	maximumFrequencies = 1000,
 
 	-- How much the frequency value can change per step.
-	frequencyStep = 0.1,
+	frequencyStep = 1,
 
 	-- Channel frequency restrictions.
 	restrictedChannels = {
-		[1] = 'police'
+		[1] = { 
+			police = 0,
+		},
+		[2] = { 
+			police = 0,
+		},
+		[3] = { 
+			police = 0,
+		},
+		[4] = { 
+			police = 0,
+			ambulance = 0,
+		},
+		[5] = { 
+			police = 0,
+			ambulance = 0,
+		},
 	},
 
 	-- ! The following options will override the pma-voice convars.
